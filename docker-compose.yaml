@@ -1,0 +1,35 @@
+version: '2.1'
+
+services:
+
+  commander:
+    image: com.marc.microservice/commander
+    ports:
+      - 8093:8093
+    links:
+      - payment
+      - provisioning
+      - ordercart
+    environment:
+      - DOCKER_IP=$DOCKER_IP
+
+  ordercart:
+    image: com.marc.microservice/ordercart
+    ports:
+      - 8090:8090
+    environment:
+      - DOCKER_IP=$DOCKER_IP
+
+  payment:
+    image: com.marc.microservice/payment
+    ports:
+      - 8091:8091
+    environment:
+      - DOCKER_IP=$DOCKER_IP
+
+  provisioning:
+    image: com.marc.microservice/provisioning
+    ports:
+      - 8092:8092
+    environment:
+      - DOCKER_IP=$DOCKER_IP

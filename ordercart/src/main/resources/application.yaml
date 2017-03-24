@@ -1,0 +1,5 @@
+server:
+  port: 8090
+
+cart.event.queue.name: cart-event
+topic.exchange.name: microservice-topic

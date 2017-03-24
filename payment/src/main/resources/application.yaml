@@ -1,0 +1,5 @@
+server:
+  port: 8091
+
+payment.event.queue.name: payment-event
+topic.exchange.name: microservice-topic

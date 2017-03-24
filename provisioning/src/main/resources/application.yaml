@@ -1,0 +1,5 @@
+server:
+  port: 8092
+
+provisioning.event.queue.name: provisioning-event
+topic.exchange.name: microservice-topic

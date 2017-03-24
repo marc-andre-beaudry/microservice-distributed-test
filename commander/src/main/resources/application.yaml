@@ -1,0 +1,13 @@
+server:
+  port: 8093
+payment-service:
+  api-url: http://localhost:8091/api/payments
+provisioning-service:
+  api-url: http://localhost:8092/api/provisions
+cart-service:
+  api-url: http://localhost:8090/api/carts
+
+cart.event.queue.name: cart-event
+payment.event.queue.name: payment-event
+provisioning.event.queue.name: provisioning-event
+topic.exchange.name: microservice-topic

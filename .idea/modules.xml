@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/commander/commander.iml" filepath="$PROJECT_DIR$/commander/commander.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ordercart/ordercart.iml" filepath="$PROJECT_DIR$/ordercart/ordercart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment/payment.iml" filepath="$PROJECT_DIR$/payment/payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provisioning/provisioning.iml" filepath="$PROJECT_DIR$/provisioning/provisioning.iml" />
+    </modules>
+  </component>
+</project>
